@@ -1,70 +1,307 @@
 * {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 /* Architects part */
 .header {
-    width: 100%;
-    height: 1322px;
-    background-color: rgba(255, 144, 14, 0.1);
-    ;
+  width: 100%;
+  background-color: rgba(255, 144, 14, 0.1);
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    margin: 50px 240px 100px 230px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 240px 0px 230px;
+  padding-top: 50px;
 }
 
 nav ul {
-    display: flex;
-    font-weight: 500;
-    font-size: 18px;
+  display: flex;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 nav li {
-    list-style: none;
-    margin-left: 55px;
+  list-style: none;
+  margin-left: 55px;
 }
 
 .header-title {
-    font-weight: 700;
-    color: #131313;
-    ;
-    font-size: 45px;
+  font-weight: 700;
+  color: #131313;
+  font-size: 45px;
+}
+
+.brand-container {
+  text-align: center;
 }
 
 .brand-title {
-    padding: 75px 250px;
-    align-content: center;
-
+  padding: 75px 250px;
+  /* align-content: center; */
 }
 
 .brand {
-    color: #131313;
-    ;
-    font-weight: 700;
-    font-size: 64px;
+  color: #131313;
+  font-weight: 700;
+  font-size: 64px;
 }
 
 .brand-paragraph {
-    font-weight: 400;
-    font-size: 16px;
-    color: #727272;
-    ;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin: 32px auto;
 }
 
 .brand-btn {
-    width: 180px;
-    height: 64px;
-    color: #FFFFFF;
-    background-color: #FF900E;
-    border-radius: 8px;
-    border: none;
+  width: 180px;
+  height: 64px;
+  color: #ffffff;
+  background-color: #ff900e;
+  border-radius: 8px;
+  border: none;
 }
 
 .banner {
-    width: 1040px;
-    height: 500px;
-    border-radius: 8px;
+  width: 1040px;
+  height: 500px;
+  border-radius: 8px;
+  padding-bottom: 45px;
+}
+
+.features-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 73px;
+  padding: 85px;
+}
+.feature-left {
+  width: 708px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.feature-right {
+  width: 537px;
+}
+
+.text-dark {
+  color: #727272;
+}
+.text-black {
+  color: #131313;
+}
+.text-orange {
+  color: #ff900e;
+}
+
+.feature-heading {
+  font-weight: 500;
+  font-size: 45px;
+}
+.feature-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.feature-btn {
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background: #ff900e;
+  border-radius: 8px;
+  border: none;
+  padding: 21px 24px;
+}
+/* Bottom Banner Section */
+.bottom-banner-container {
+  height: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+.bottom-banner-left {
+  width: 585px;
+}
+
+.bottom-banner-left h2 {
+  font-weight: 700;
+  font-size: 45px;
+  padding-left: 21px;
+  margin-bottom: 24px;
+  border-left: 5px solid #FF900E;
+  
+}
+
+.bottom-banner-left h5 {
+  font-weight: 600;
+  font-size: 20px;
+}
+.bottom-banner-left p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-top: 10px;
+}
+.bottom-banner-left div {
+  margin-bottom: 30px;
+  padding: 30px;
+}
+.shadow{
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+
+}
+
+.bottom-banner-right {
+  width: 708px;
+}
+
+.experience{
+  background: #FF900E;
+border-radius: 8px;
+  width: 342px;
+height: 200px;
+color: #FFFFFF;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: absolute;
+bottom: -50px;
+left: 45%;
+}
+.experience h1{
+  font-weight: 700;
+font-size: 65px;
+}
+.experience p{
+  font-weight: 500;
+  font-size: 25px;
+}
+
+/* Facts */
+.facts-container{
+margin-top: 130px;
+}
+.facts-container h2{
+  font-weight: 700;
+font-size: 45px;
+}
+.facts-container p{
+  font-weight: 400;
+font-size: 16px;
+color: #727272;
+}
+.fact-heading{
+  font-weight: 700;
+font-size: 45px;
+margin-bottom: 24px;
+margin-left: 117px;
+}
+.fact-paragraph{
+  font-weight: 400;
+font-size: 16px;
+margin-bottom: 100px;
+margin-left: 117px;
+}
+.facts-container
+.icons-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon{
+  width: 145px;
+  height: 145px;
+  border: 1px solid #FF900E;
+border-radius: 8px;
+padding: 40px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+transition: all .5s ease-in-out;
+
+}
+
+.icon:hover{
+  scale: 1.2;
+  background-color: rgba(255, 143, 14, 0.074);
+}
+
+.icons-container h3{
+  color: #424242;
+}
+
+/* Sponsor Section */
+.sponsor-header{
+  text-align: center;
+}
+.sponsor-title{
+  font-weight: 700;
+  font-size: 45px;
+  margin-top: 150px;
+  margin-bottom: 24px;
+}
+.sponsor-paragraph{
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 50px;
+}
+.sponsor-container{
+  display: flex;
+  justify-content: space-evenly;
+  padding: auto 240px;
+}
+
+/* Additional Section */
+.newsletter-title{
+  margin-top: 65px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.newsletter{
+  width: 65%;
+  background: #f19393a5;
+  margin: 25px auto;
+  text-align: center;
+  padding: 60px 50px;
+  border-radius: 7px;
+  box-shadow: 0px 4px 30px rgba(26, 23, 23, 0.407);
+}
+
+.newsletter-input{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.newsletter-btn{
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: #727272;
+}
+
+/* Footer */
+footer{
+  width: 1000px;
+/* height: 40px; */
+background: #FFF4E7;
+margin: 100px auto;
+text-align: center;
+border-radius: 8px;
+padding: 38px 200px;
 }
